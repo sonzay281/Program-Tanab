@@ -8,7 +8,7 @@ public class Tanab {
     public static void main(String[] args) {
         int choice = 3;
         String[] name = new String[choice];
-        String[] subjects = {"Computer", "Ennglish"/*, "Nepali", "Science", "Math"*/};
+        String[] subjects = {"Computer", "Ennglish", "Nepali", "Science", "Math"};
         String header = String.format("%10s%10s%8s%n", "Name", "Score", "Grade");
         double[] percentages = new double[name.length + 1];
         double[] totals = new double[name.length];
